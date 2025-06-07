@@ -97,7 +97,7 @@ else:
 
     if st.button("Speel opnieuw"):
         st.session_state.clear()
-        st.experimental_rerun()
+        st.rerun()
 
 # Styling
 st.markdown("""
