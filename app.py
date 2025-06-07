@@ -88,7 +88,7 @@ if st.session_state.current_question < len(st.session_state.shuffled_vragen):
                 st.error(f"Oeps! Het goede antwoord is: {vraag_data['antwoord']}")
 
             st.session_state.current_question += 1
-            st.experimental_rerun()
+            st.rerun()
 
 else:
     st.balloons()
